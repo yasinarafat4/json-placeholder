@@ -15,7 +15,8 @@ function loadPosts() {
 }
 
 function displayPosts(posts) {
-  const postContainer = document.getElementById("posts-container"); //Step-1
+  const postContainer = document.getElementById("posts-container");
+  //Step-1
   for (const post of posts) {
     const postDiv = document.createElement("div"); // Step-2
 
